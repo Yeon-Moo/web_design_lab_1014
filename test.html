@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,8 +16,9 @@
     <!--Css語法要放在style裡-->
     <style>
         body{
+            /*改變網頁背景圖片*/
             background-image:url("https://images.unsplash.com/photo-1665713800863-16a4f96c3a0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=397&q=80") ;
-            /*當圖片不夠大時要不要repeat填滿整個網頁 no-repeat為不repeat*/
+           /*當圖片不夠大時要不要repeat填滿整個網頁 no-repeat為不repeat*/
             background-repeat: no-repeat;
             /*覆蓋整個網頁*/
             background-size: cover;
@@ -54,9 +56,11 @@
         <h1>show<a href="https://www.google.com/search?q=%E3%84%98%E3%84%A8%E3%84%9A%CB%8B+%E8%B6%85%E8%B2%A0%E8%8D%B7&tbm=isch&hl=zh-TW&chips=q:%E3%84%98+%E3%84%A8+%E3%84%9A+%CB%8B+%E8%B6%85+%E8%B2%A0%E8%8D%B7,online_chips:%E5%BF%97%E7%A5%A5:XtNJOIyQyx0%3D&sa=X&ved=2ahUKEwiluo3vuc36AhXF32EKHfaGDUUQ4lYoA3oECAEQJw&biw=941&bih=942"> me </a>first
             Page
         </h1>
-      
+        <!--<img>用以加上圖片 不用終止符號-->
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaLrf9Vvlw1at0iKi5qIs81T-0WFVtft8ST8hcISqQ-RmuE531a0eOHeQsfO5-XYJPoE&usqp=CAU" alt="something wrong dude">
+        <img src="https://memeprod.ap-south-1.linodeobjects.com/user-gif-thumbnail/15efe7cafff97b50d17bbc55709ba658.gif">
     </p>
+
 
     <p id="changed">
         Hello world!
@@ -118,7 +122,8 @@
 
     </p>
 
-    <button id="button2" type="button" >Button2</button>
+    <button id="button2" type="button" onclick="PressMe()" >Button2</button>
+    <button id="button3" type="button" onclick="BackGround()" >Back</button>
 </body>
 
 </html>
