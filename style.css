@@ -137,3 +137,23 @@ transition-timing-function: linear;
     text-align: center;
    
 }
+.menu .logo{
+    bottom:0vh;
+    left: 0vh;
+    /*以父節點為標準做定位 fixed為窗口定位 absolute為頁面絕對定位*/
+    position:fixed
+}
+.menu .logo div{
+    display:inline-block;
+   
+}
+
+
+.menu .logo div img{
+    height: 30px;
+    width:30px;
+  
+    margin:0;
+    
+}
+

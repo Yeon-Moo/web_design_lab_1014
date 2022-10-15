@@ -10,3 +10,17 @@
     padding: 0;
 
 }
+
+
+.menu .logo{
+    height:20px;
+    width:20px;
+    display: inline-block;
+    left:0vh;
+    bottom:0vh;
+}
+
+.menu .logo .Ig{
+    background-image: url("https://inside-assets1.inside.com.tw/2016/05/1-V7GYJQ_4lykfDzOf9q17eA.jpeg?auto=compress&fit=max&w=730");
+
+}
