@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yeon's Music Study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
+    <script src="../vue/vue_test.js"></script>
+    <title>vue test</title>
 </head>
 <body>
-    
+    <script>
+        new Vue({
+          el: "#app01",
+          data: {
+            msg: "我的第一個Vue應用(ง๑ •̀_•́)ง",
+          },
+        });
+    </script>
+    <div id="app01">
+        {{msg}}
+      </div>
 </body>
 </html>

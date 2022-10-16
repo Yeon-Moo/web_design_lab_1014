@@ -69,7 +69,7 @@ p {
 
 #animation {
     background-color: #ffd28d;
-    width: 250px;
+    width: 300px;
     height: 30px;
     /*設定做完下個轉變需要花的時間*/
     transition-duration: 1s;
@@ -223,6 +223,12 @@ p {
 }
 
 .menu .logo .GitHub img {
+    height: 28px;
+    width: 28px;
+    border-radius: 10em;
+}
+
+.menu .logo .Spotify img {
     height: 28px;
     width: 28px;
     border-radius: 10em;
