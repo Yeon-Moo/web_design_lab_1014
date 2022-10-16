@@ -1,0 +1,300 @@
+body {
+    /*改變網頁背景圖片*/
+    background-image: url("https://i.redd.it/zi8ugswj51y41.png");
+    /*
+    background-color:  #ffffff;
+    */
+    /*當圖片不夠大時要不要repeat填滿整個網頁 no-repeat為不repeat*/
+    background-repeat: no-repeat;
+    /*覆蓋整個網頁*/
+    background-size: cover;
+    /*設定圖片位置*/
+    background-position: center;
+    /*網頁在滾動的時候圖片會不會跟著移動 fixed為完全不移動 scroll為外圍頁面滾動時滾動 local為區塊滾動時移動(放在最外層時與scroll相同)*/
+    background-attachment: scroll;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-position: 50px 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    /*選擇不要出現<ul>前的黑點*/
+    list-style: none;
+    margin-top: 0px;
+}
+
+li {
+    /*設定li為橫式展開*/
+    display: inline;
+
+    /*float: left;*/
+
+}
+
+h1 {
+    margin-top: 10px;
+
+}
+
+/*設定滑鼠停在<li>中的超連結<a>時的行為*/
+
+
+button:hover {
+    background-color: #ddd;
+}
+
+/*.為使用類別選擇器選擇class*/
+.list {
+    color: aquamarine;
+}
+
+/*#為使用類別選擇器選擇id*/
+#button1, #button2 {
+    color: yellowgreen;
+    background-color: aqua;
+}
+
+/*不加東西為使用類別選擇器選擇tag*/
+
+p {
+    color: red;
+}
+
+#animation {
+    background-color: #ffd28d;
+    width: 250px;
+    height: 30px;
+    /*設定做完下個轉變需要花的時間*/
+    transition-duration: 1s;
+    /*設定發生轉變時的動畫速度*/
+    transition-timing-function: linear;
+
+}
+
+
+#animation:hover {
+    width: 300px;
+    height: 200px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+.content {
+    /*
+    background-image: url("https://i.redd.it/zi8ugswj51y41.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 90%;
+    */
+    margin: 0px;
+    padding-top: 0px;
+    border: 0px;
+
+
+
+}
+
+
+
+
+
+/*.real_content{
+
+}
+*/
+.content_title {
+    background-image: url('https://agirls.aottercdn.com/media/0d532b3f-0196-466a-96e1-7c6db56d0142.gif');
+    width: 250vh;
+    background-repeat: repeat;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.content_title p {
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+/*Menu*/
+
+.menu {
+    height: 150vh;
+    width: 30vh;
+    background-color: #000000;
+    float: left;
+    border-color: antiquewhite;
+    border-style: double;
+
+
+
+}
+
+.menu .navdiv {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #000000;
+   
+
+
+}
+
+
+.menu .navdiv nav ul li {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #000000;
+    
+
+
+}
+
+
+
+
+
+.menu .navdiv .nav {
+    
+    
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    width: 500px;
+    color: pink;
+    line-height: 9vh;
+    font-size: 6vh;
+    font-family: Microsoft JhengHei;
+ 
+    /*
+    border-style:inset;
+    border-color: wheat;
+    */
+}
+.menu .navdiv .nav::before{
+    content:'';
+
+}
+
+
+.menu .navdiv nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .navdiv nav ul li a:hover {
+    text-decoration:underline;
+    color: #ffffff;
+}
+
+
+
+.menu .logo {
+    bottom: 0vh;
+    left: 4px;
+    /*以父節點為標準做定位 fixed為窗口定位 absolute為頁面絕對定位*/
+    position: fixed
+}
+
+.menu .logo div {
+    display: inline-block;
+}
+
+
+.menu .logo .Ig img {
+    height: 24px;
+    width: 28px;
+    border-radius: 10em;
+}
+
+.menu .logo .GitHub img {
+    height: 28px;
+    width: 28px;
+    border-radius: 10em;
+}
+
+.allcontentofHistory {
+   
+    margin: 0px;
+    padding-top: 0px;
+    border: 0px;
+
+}
+
+.historycontent{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding-top: 0px;
+    border: 0px;
+    
+}
+
+.historycontent .content1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/*flexbox練習參考網址 https://codepen.io/peiqun/pen/WYzzYX*/
+
+.historycontent .content1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.historycontent .content1 ul li {
+    width: 50px;
+    height: 30px;
+}
+
+
+.historycontent .content1 .box1 {
+    background-color: aquamarine;
+
+}
+
+.historycontent .content1 .box2 {
+    background-color: palegoldenrod;
+
+}
+
+.historycontent .content1 .box3 {
+    background-color: palegreen
+}
+
+.historycontent .content1 .box4 {
+    background-color: palevioletred;
+
+}
+
+.historycontent .content1.box5 {
+    background-color: wheat;
+
+}
+
+.anothercontent {
+    width: 500px;
+    height: 500px;
+
+}
