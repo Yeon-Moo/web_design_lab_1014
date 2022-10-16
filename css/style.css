@@ -1,9 +1,9 @@
 body {
     /*改變網頁背景圖片*/
-    background-image: url("https://i.redd.it/zi8ugswj51y41.png");
-    /*
-    background-color:  #ffffff;
-    */
+    /*background-image: url("https://i.redd.it/zi8ugswj51y41.png");*/
+    
+    background-color:rgb(238, 155, 222);
+    
     /*當圖片不夠大時要不要repeat填滿整個網頁 no-repeat為不repeat*/
     background-repeat: no-repeat;
     /*覆蓋整個網頁*/

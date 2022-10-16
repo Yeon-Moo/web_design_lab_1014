@@ -4,6 +4,8 @@ $(document).ready(function(){
     });
 });
 
+$("#changed").text("My jquery test");
+
 var i=0;
   function Click (){
     
